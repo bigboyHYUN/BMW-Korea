@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../../font/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../../font/IBMPlexSans-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../../font/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../../font/IBMPlexSans-Thin.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../../font/Pretendard-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../../font/Pretendard-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../../font/Pretendard-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../../font/Pretendard-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../../font/Pretendard-Light.otf');
+    font-weight: 300;
+}

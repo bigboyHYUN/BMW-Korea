@@ -1,0 +1,260 @@
+.promotion-container{
+    background-color: #fafafa;
+    width: 100%;
+    margin-top: 180px;
+    padding: 70px 0;
+}
+
+.promotion-content{
+    width: 63.741%;
+    margin: 0 auto;
+}
+
+.promotion-box ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.promotion-box ul li{
+    width: 50%;
+}
+
+.promotion-box ul li + li{
+    margin-left: 20px;
+}
+
+.promotion-big__l,
+.promotion-big__r{
+    width: 100%;
+    height: 25.539vw;
+    border-radius: 24px;
+    padding: 1.682vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.promotion-big__l{
+    background: url('/img/promo/promo-i5.png') no-repeat center / cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promotion-big__l h5,
+.promotion-big__r h5{
+    font-size: 1.261vw;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.promotion-big__r{
+    background: url('/img/promo/promo-7.png') no-repeat center / cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promotion-big__l p,
+.promotion-big__r p{
+    font-size: 0.946vw;
+    color: #fff;
+}
+
+.smallbox{
+    width: 50%;
+    height: 11.35vw;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 2.522vw 0 0 1.682vw;
+}
+
+.smallbox h6{
+    font-size: 1.261vw;
+    font-weight: 300;
+    color: #fff;
+}
+
+.smallbox p{
+    font-size: 0.736vw;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 1.261vw;
+}
+
+.promotion-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotion-box__l:first-of-type{
+    background-color: #424242;
+}
+
+.promotion-box__r:first-of-type{
+    background-color: #1c69d4;
+}
+
+.promotion-small__l{
+    background: url('/img/promo/prosub1.png') no-repeat center / cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.promotion-small__r{
+    background: url('/img/promo/prosub2.png') no-repeat center / cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.promotion-bottom__text{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #757575;
+}
+
+.promotion-bottom__text p{
+    margin-bottom: 6px;
+}
+
+.promotion-bottom__text button a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion-bottom__text button a img{
+    width: 24px;
+    height: 24px;
+}
+
+.promotion-bottom__text p br{
+    display: none;
+}
+
+@media (max-width:1024px){
+    .promotion-container{
+        margin-top: 140px;
+        padding: 70px 0;
+    }
+
+    .promotion-box ul{
+        display: block;
+    }
+
+    .promotion-content{
+        width: 92.024%;
+    }
+
+    .promotion-box ul li + li{
+        margin: 20px 0 0 0px;
+    } 
+
+    .promotion-box ul li{
+        display: flex;
+        width: 100%;
+    }
+    
+    .promotion-big__l,
+    .promotion-big__r{
+        width: 62.213vw;
+        height: 48.455vw;
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 32px;
+    }
+    
+    .promotion-bottom{
+        display: block;
+    }
+
+    .promotion-big__l div,
+    .promotion-big__r div{
+        position: absolute;
+        bottom: 32px;
+    }
+
+    .promotion-big__l h5,
+    .promotion-big__r h5{
+        font-size: 2.734vw;
+    }
+
+    .promotion-big__l p,
+    .promotion-big__r p{
+        font-size: 1.953vw;
+    }
+
+    .smallbox{
+        width: 29.711vw;
+        height: 23vw;
+        margin: 0 0 0 20px;
+        padding: 48px 0 0 32px;
+    }
+
+    .smallbox + .smallbox{
+        margin-top: 20px;
+    }
+
+    .smallbox h6{
+        font-size: 2.344vw;
+    }
+    
+    .smallbox p{
+        font-size: 1.367vw;
+    }
+}
+
+@media (max-width:768px){
+    .smallbox{
+        padding: 32px;
+    }
+}
+
+@media (max-width:500px){
+    .promotion-content{
+        width: 92%;
+    }
+
+    .smallbox{
+        display: none;
+    }
+
+    .promotion-big__l,
+    .promotion-big__r{
+        width: 92vw;
+        height: 70vw;
+        padding: 24px;
+    }
+
+    .promotion-big__l div,
+    .promotion-big__r div{
+        bottom: 24px;
+    }
+
+    .promotion-big__l h5,
+    .promotion-big__r h5{
+        font-size: 3.6vw;
+        margin-bottom: 6px;
+    }
+
+    .promotion-big__l p,
+    .promotion-big__r p{
+        font-size: 2.4vw;
+    }
+
+    .promotion-bottom__text{
+        margin-top: 24px;
+    }
+
+    .promotion-bottom__text p br{
+        display: block;
+    }
+}

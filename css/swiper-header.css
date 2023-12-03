@@ -1,0 +1,222 @@
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.header-padding{
+  position: relative;
+  padding: 48px 40px;
+}
+
+.header-padding img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.one{
+  background: url(/img/banner/banner1-i7.png) no-repeat center / cover;
+}
+
+.two{
+  background: url(/img/banner/banner2-i5.png) no-repeat center / cover;
+}
+
+.three{
+  background: url(/img/banner/banner-x7.png) no-repeat center / cover;
+}
+
+.four{
+  background: url(/img/banner/banner-x6.png) no-repeat center / cover;
+}
+
+.swiper-text{
+  width: 22.648%;
+  height: 11.456vw;
+  color: #fff;
+  position: absolute;
+  bottom: 48px
+}
+
+.swiper-text div{
+  width: 25.8%;
+  height: 6.411vw;
+  position: relative;
+}
+
+.swiper-text h2{
+  font-size: 2.733vw;
+  font-weight: 700;
+}
+
+.swiper-text p{
+  font-size: 1.107vw;
+  font-weight: 300;
+}
+
+.long-text{
+  margin-left: 14.6vw;
+}
+
+.shot-text{
+  margin-left: 9vw;
+}
+
+
+.swiper-text button{
+  width: 8.1%;
+  height: 48px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(62.5px);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 0.886vw;
+  margin-top: 2.5vw;
+  transition: 0.4s;
+}
+
+.pagi-style{
+  position: absolute !important;
+  bottom: 2.5vw !important;
+  color: #fff;
+}
+
+.btn-hover:hover{
+  border: none;
+  background-color: #1c69d4;
+  transition: 0.4s;
+  box-shadow: none;
+}
+
+
+.mySwiper .swiper-pagination-bullet{
+  background: none;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet-active{
+  background-color: #fff;
+}
+
+:root {
+  border: none;
+}
+
+
+@media (max-width:1024px){
+  .mySwiper {
+    height: 768px;
+  }
+
+  .one{
+    background: url(/img/banner/tablet/tablet1.png) no-repeat center / cover;
+  }
+  
+  .two{
+    background: url(/img/banner/tablet/tablet2.png) no-repeat center / cover;
+  }
+  
+  .three{
+    background: url(/img/banner/tablet/tablet3.png) no-repeat center / cover;
+  }
+  
+  .four{
+    background: url(/img/banner/tablet/tablet4.png) no-repeat center / cover;
+  }
+  
+  .swiper-text{
+    height: 110px;
+  }
+
+  .swiper-text div{
+    width: 500px;
+    height: 122px;
+  }
+
+  .swiper-text h2{
+    font-size: 5.085vw;
+  }
+
+  .swiper-text p{
+    font-size: 1.907vw;
+  }
+  
+  .swiper-text button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 22.034%;
+    font-size: 18px;
+  }
+
+  .swiper-text p:nth-of-type(2){
+    bottom: 10px;
+  }
+
+  .pagi-style{
+    position: absolute !important;
+    bottom: 16px !important;
+    color: #fff;
+  }
+  
+  .swiper-text p:nth-of-type(2){
+    margin-left: 31vw;
+  }
+}
+
+
+@media (max-width:500px){
+  .header-padding{
+    position: relative;
+    padding: 16PX 33PX;
+  }
+
+  .one{
+    background: url(/img/banner/mobile/i7.png) no-repeat center / cover;
+  }
+  
+  .two{
+    background: url(/img/banner/mobile/i5.png) no-repeat center / cover;
+  }
+  
+  .three{
+    background: url(/img/banner/mobile/x7.png) no-repeat center / cover;
+  }
+  
+  .four{
+    background: url(/img/banner/mobile/x6.png) no-repeat center / cover;
+  }
+  
+  .mySwiper {
+    height: 812px;
+  }
+
+  .swiper-text{
+    bottom: 112px;
+  }
+
+  .swiper-text h2{
+    font-size: 38px;
+    font-weight: 500;
+  }
+
+  .swiper-text p{
+    font-size: 14PX;
+  }
+
+  .swiper-text p:nth-of-type(2){
+    margin-left: 220px;
+  }
+
+  .swiper-text button{
+    bottom: -55px;
+    font-size: 16px;
+    width: 217px;
+  }
+  
+}

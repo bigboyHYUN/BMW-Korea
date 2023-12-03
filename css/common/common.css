@@ -1,0 +1,176 @@
+.container{
+    width: 94.955%;
+    margin: 0 auto;
+}
+
+.container-second{
+    width: 63.741%;
+    margin: 0 auto;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-title div a{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.section-title h3{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.section-title p{
+    font-size: 20px;
+    color: #757575;
+}
+
+.section-title a img{
+    width: 24px;
+    height: 24px;
+}
+
+.top{
+    position: fixed;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    z-index: 9999;
+    bottom: 48px;
+    right: 48px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top img{
+    width: 20px;
+    height: 16px;
+}
+
+.service{
+    position: fixed;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    z-index: 9999;
+    bottom: 112px;
+    right: 48px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-fixed__logo{
+    display: none;
+}
+
+.header-fixed__find,
+.header-fixed__my{
+    display: none;
+}
+
+.header-fixed header{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-fixed header .header-gnb li{
+    color: #000;
+} 
+
+.header-fixed header .header-fixed__logo,
+.header-menu__open header .header-fixed__logo,
+.mobile-menu__open .header-fixed__logo{
+    display: block;
+}
+
+.header-fixed header .header-top__logo,
+.header-menu__open header .header-top__logo,
+.mobile-menu__open .header-top__logo{
+    display: none;
+}
+
+.header-fixed header .header-top__find,
+.header-fixed header .header-top__my,
+.header-menu__open header .header-top__find,
+.header-menu__open header .header-top__my,
+.mobile-menu__open .header-top__find,
+.mobile-menu__open .header-top__my{
+    display: none;
+}
+
+.header-fixed header .header-fixed__find,
+.header-fixed header .header-fixed__my,
+.header-menu__open header .header-fixed__find,
+.header-menu__open header .header-fixed__my,
+.mobile-menu__open header .header-fixed__find,
+.mobile-menu__open header .header-fixed__my{
+    display: block;
+}
+
+.header-fixed header .header-fixed__find,
+.header-menu__open header .header-fixed__find,
+.mobile-menu__open .header-fixed__find{
+    margin-right: 24px;
+}
+
+.header-fixed header .hamburger-menu span{
+    background-color: #bdbdbd;
+    transition: 0.6s;
+}
+ 
+
+@media (max-width:1024px){
+    .container,
+    .container-second{
+        width: 92.024%;
+    }
+    .container-big{
+        width: 100%;
+    }
+
+    .top{
+        right: 40px;
+    }
+    
+}
+
+@media (max-width:500px){
+    .container,
+    .container-second{
+        width: 89.333%;
+    }
+
+    .section-title h3{
+        font-size: 28px;
+    }
+    
+    .section-title p{
+        font-size: 16px;
+        color: #757575;
+    }
+
+    .section-title ul li:first-of-type{
+        font-weight: 600;
+    }
+
+    .section-title ul li{
+        font-size: 18px;
+    }
+
+    .section-title a img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .top{
+        right: 20px;
+    }
+    
+}

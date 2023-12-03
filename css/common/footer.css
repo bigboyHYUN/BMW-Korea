@@ -1,0 +1,240 @@
+footer{
+    width: 100%;
+    height: 730px;
+    background-color: #212121;
+    margin-top: 140px;
+}
+
+.footer-container{
+    padding: 48px 0;
+}
+
+.footer-logo img{
+    width: 48px;
+    height: 48px;
+}
+
+.footer-contents{
+    height: 424px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer-contents > span{
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.footer-contents ul{
+    display: flex;
+}
+
+.footer-contents ul:nth-of-type(2){
+    margin-top: 6px;
+}
+
+.footer-contents ul li{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.footer-contents ul li{
+    display: flex;
+}
+
+.footer-contents ul li:nth-of-type(1):after,
+.footer-contents ul li:nth-of-type(2):after,
+.footer-contents ul li:nth-of-type(4):after,
+.footer-contents ul li:nth-of-type(5):after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 18px;
+    background-color: #ffffff;
+    margin: 0 16px;
+}
+
+.footer-bottom__btn{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-bottom__text{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-bottom__text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-bottom__text span{
+    display: block;
+    background-color: #fff;
+    width: 1px;
+    height: 18px;
+    margin:0 16px;
+}
+
+.footer-bottom__text p::after{
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+}
+
+.footer-bottom button{
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    width: 223px;
+    height: 52px;
+    font-size: 18px;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.footer-bottom button img{
+    width: 21px;
+    height: 21px;
+}
+
+.footer-ps{
+    display: flex;
+    margin-top: 32px;
+}
+
+.footer-ps div + div{
+    margin-left: 16px;
+}
+
+.footer-ps div img{
+    width: 28px;
+    height: 28px;
+}
+
+.footer-ps span{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    right:48px;
+}
+
+.footer-bottom button:first-of-type,
+.footer-bottom button:nth-of-type(2){
+    margin-right: 20px;
+}
+
+@media (max-width:1024px){
+
+    .footer-contents ul li{
+        font-size: 16px;
+    }
+
+    .footer-bottom button{
+        width: 221px;
+    }
+
+    .footer-bottom button:first-of-type,
+    .footer-bottom button:nth-of-type(2){
+        margin-right: 20px;
+    }
+
+    .footer-bottom p{
+        font-size: 16px;
+    }
+
+    .footer-bottom div:first-of-type{
+        bottom: 270px;
+    }
+
+}
+@media (max-width:855px){
+    .footer-contents{
+        margin-top: 24px;
+    }
+
+    .footer-contents ul{
+        display: block;
+    }
+
+    .footer-contents ul + ul{
+        margin-top: 10px;
+    }
+
+    .footer-contents ul li{
+        font-size: 14px;
+    }
+
+    .footer-contents ul li + li{
+        margin-top: 10px;
+    }
+    
+    .footer-contents ul li:nth-of-type(1):after,
+    .footer-contents ul li:nth-of-type(2):after,
+    .footer-contents ul li:nth-of-type(4):after,
+    .footer-contents ul li:nth-of-type(5):after{
+        display: none;
+    }
+    
+    footer{
+        width: 100%;
+        height: 812px;
+    }
+
+    .footer-contents{
+        height: 554px;
+    }
+
+    .footer-bottom{
+        bottom: 0;
+    }
+    
+    .footer-bottom span{
+        display: none;
+    }
+
+    .footer-bottom__text:first-of-type{
+        display: block;
+        top: 310px;
+    }
+
+    .footer-bottom__text p:first-of-type{
+        display: inline-block;
+    }
+
+    .footer-bottom__text p:nth-of-type(2){
+        margin-top: 10px;
+    }
+
+    .footer-bottom button{
+        width: 223px;
+        height: 48px;
+        font-size: 16px;
+        padding: 0 24px;
+    }
+
+    .footer-bottom__btn{
+        left:0;
+        display: block;
+    }
+
+    .footer-bottom button{
+        margin-top: 16px;
+    }
+
+    .footer-ps span{
+        right:20px;
+    }
+}

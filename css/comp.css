@@ -1,0 +1,224 @@
+.comp-container{
+    margin-top: 180px;
+    position: relative;
+}
+
+.comp-content__box{
+    width: 100% !important;
+    padding: 48px;
+    height: 100%;
+}
+
+.comp-content__box p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.comp-content__box h4{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.comp-content__box div img{
+    width: 97.619%;
+    margin-top: 48px;
+}
+
+.comp-box{
+    display: flex;;
+}
+
+/* .comp-box + .comp-box{
+    margin-left: 48px;
+} */
+
+.comp-box + .comp-box::before{
+    content: '';
+    display: block;
+    background-color: #e0e0e0;
+    height: 670px;
+    width: 2px;
+
+}
+
+.comp-btns ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.comp-btns ul li{
+    font-size: 24px;
+}
+
+.comp-btns ul li:first-of-type{
+    margin-right: 48px;
+}
+
+.comp-btns ul li button{
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.comp-btns ul li{
+    color: #9e9e9e;
+    font-weight: 300;
+}
+
+.comp-btns ul li:last-of-type{
+    margin-left: 48px;
+}
+.comp-btns ul li.active{
+    font-weight: 400;
+    color: #000;
+}
+
+.comp-btns ul li.active::after{
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.comp-btns ul li::after{
+    content: '';
+    display: block;
+    background-color: #9e9e9e;
+    height: 1px;
+    width: 100%;
+    margin-top: 6px;
+}
+
+
+.comp-detail__text{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0 0;
+    font-size: 16px;
+}
+
+.comp-detail__text ul li + li{
+    margin-top: 10px;
+}
+
+.comp-detail__text ul:nth-of-type(2) li,
+.comp-detail__text ul:nth-of-type(2) li p{
+    color: #757575;
+    text-align: right;
+}
+
+.comp-bottom::before{
+    content: '';
+    display: block;
+    background-color: #bdbdbd;
+    width: 100%;
+    height: 1px;
+    margin: 32px 0 24px 0;
+}
+
+.comp-bottom h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comp-bottom p{
+    font-size: 14px;
+    color: #757575;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.comp-bottom div{
+    margin-top: 24px;
+    text-align: right;
+}
+
+.comp-bottom div button{
+    width: 33.661%;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.comp-bottom div button:first-of-type{
+    border: 1px solid #000;
+    margin-right: 20px;
+    
+}
+
+.comp-bottom div button:nth-of-type(2){
+    background-color: #1c69d4;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+.comp-bottom div button:nth-of-type(2):hover{
+    transition: 0.3s;
+}
+
+/* tab */
+
+.electricity,
+.default,
+.hybrid{
+    display: none;
+}
+
+.swiper.show{
+    display: block;
+}
+
+@media (max-width:1024px){
+    .comp-container{
+        margin-top: 140px;
+    }
+
+    .comp-box::after{
+        height: 650px;
+        width: 2px;
+    }
+    .comp-bottom div button{
+        width: 9.771vw;
+    }
+
+    .comp-content__box{
+        padding: 40px;
+    }
+}
+
+
+@media (max-width:838px){
+    .comp-bottom div button{
+        width: 29.2vw;
+    }
+}
+
+
+@media (max-width:500px){
+    .comp-box + .comp-box::before{
+        display: none;
+    }
+
+    .comp-box + .comp-box{
+        margin-left: 0;
+    }
+
+    .comp-box::after{
+        display: none;
+    }
+
+    .comp-bottom div button{
+        width: 29.2vw;
+    }
+
+    .comp-bottom div button:first-of-type{
+        margin-right: 12px;
+    }
+}
