@@ -67,6 +67,10 @@
     margin-left: 48px;
 }
 
+.comp-bottom div button:nth-of-type(2):hover{
+    background-color: #1B8DFA;
+}
+
 .comp-btns ul li.active{
     font-weight: 400;
     color: #000;
@@ -144,7 +148,14 @@
 .comp-bottom div button:first-of-type{
     border: 1px solid #000;
     margin-right: 20px;
-    
+    transition: 0.4s;
+}
+
+.comp-bottom div button:first-of-type:hover{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
 }
 
 .comp-bottom div button:nth-of-type(2){

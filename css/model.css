@@ -18,14 +18,6 @@
     z-index: -20;
 }
 
-/* .model-backfont{
-    background: url(/img/BMWi7.png) no-repeat center / cover;
-    width: 97.005vw;
-    height: 17.656vw;
-    position: absolute;
-    left: -300px;
-} */
-
 .model-content{
     width: 63.689%;
     position: relative;
@@ -71,6 +63,12 @@
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    transition: 0.4s;
+}
+
+.model-content__text button:first-of-type:hover{
+    background-color: #1B8DFA;
+    transition: 0.4s;
 }
 
 .model-content__text button:nth-of-type(2){
@@ -79,6 +77,13 @@
     border-radius: 6px;
     font-size: 18px;
     font-weight: 400;
+    transition: 0.4s;
+}
+
+.model-content__text button:nth-of-type(2):hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
 }
 
 .model-img{
