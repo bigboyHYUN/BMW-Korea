@@ -28,8 +28,8 @@
 }
 
 .util-contents div a img{
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     position: absolute;
     bottom: 24px;
     right: 32px;
@@ -44,6 +44,28 @@
         width: 23.517%;
         height: 212px;
         padding: 24px;
+    }
+
+    .util-contents div p{
+        margin-top: 6px;
+        font-size: 18px;
+    }
+
+    .util-top{
+        width: 38px;
+        height: 38px;
+    }
+
+    .util-contents div a img{
+        width: 28px;
+        height: 28px;
+        right: 24px;
+    }
+}
+
+@media (max-width:834px){
+    .util-contents div p{
+        font-size: 16px;
     }
 }
 
@@ -67,9 +89,24 @@
     }
 
     .util-contents div a img{
-        width: 32px;
-        height: 32px;
-        bottom: 24px;
-        right: 24px;
+        width: 24px;
+        height: 24px;
     }
+
+    .util-contents div p{
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .util-contents div{
+        height: 42.4vw;
+    } 
+}
+
+@media (max-width:400px){
+    .util-contents div p{
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
 }

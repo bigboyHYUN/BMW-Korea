@@ -191,10 +191,6 @@ header {
 }
 
 @media (max-width:1024px){
-    /* .header-container{
-        height: 72px;
-    } */
-
     .header-container{
         padding: 0 3.91%;
     }
@@ -209,9 +205,13 @@ header {
 }
 
 @media (max-width:500px){
-    .header-logo img,
-    .header-icon img{
-        width: 32px;
-        height: 32px;
-    }
+    .header-logo img{
+        width: 38px;
+        height: 38px;
+     }
+
+    /* .header-icon img{
+        display: none;
+    } */
+
 }

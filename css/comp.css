@@ -30,17 +30,12 @@
     display: flex;;
 }
 
-/* .comp-box + .comp-box{
-    margin-left: 48px;
-} */
-
 .comp-box + .comp-box::before{
     content: '';
     display: block;
     background-color: #e0e0e0;
     height: 670px;
     width: 2px;
-
 }
 
 .comp-btns ul{
@@ -71,6 +66,7 @@
 .comp-btns ul li:last-of-type{
     margin-left: 48px;
 }
+
 .comp-btns ul li.active{
     font-weight: 400;
     color: #000;
@@ -163,7 +159,6 @@
     transition: 0.3s;
 }
 
-/* tab */
 
 .electricity,
 .default,
@@ -220,5 +215,13 @@
 
     .comp-bottom div button:first-of-type{
         margin-right: 12px;
+    }
+
+    .comp-btns{
+        text-align: center;
+    }
+
+    .comp-btns ul li{
+        font-size: 18px;
     }
 }
