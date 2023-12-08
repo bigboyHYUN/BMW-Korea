@@ -235,4 +235,8 @@
     .comp-btns ul li{
         font-size: 18px;
     }
+
+    .comp-content__box{
+        padding: 20px;
+    }
 }
