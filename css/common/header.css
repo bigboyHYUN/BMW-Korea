@@ -58,11 +58,8 @@ header {
     height: 28px;
 }
 
-.header-icon + .header-icon{
-    margin-left: 48px;
-}
-
-.header-icon li:first-of-type{
+.header-icon li:first-of-type,
+.header-icon li:nth-of-type(3){
     margin-right: 24px;
 }
 
@@ -205,9 +202,23 @@ header {
 }
 
 @media (max-width:500px){
+    .header-container{
+        height: 72px;
+    }
+
+    .header-logo,
     .header-logo img{
-        width: 38px;
-        height: 38px;
+        width: 34px;
+        height: 34px;
      }
+
+     .header-icon img{
+        width: 28px;
+        height: 28px;
+    }
+
+    .header-top__shop{
+        display: none;
+    }
 
 }

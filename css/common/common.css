@@ -70,8 +70,7 @@
     display: none;
 }
 
-.header-fixed__find,
-.header-fixed__my{
+.header-icon li:nth-of-type(even){
     display: none;
 }
 
@@ -96,27 +95,24 @@
     display: none;
 }
 
-.header-fixed header .header-top__find,
-.header-fixed header .header-top__my,
-.header-menu__open header .header-top__find,
-.header-menu__open header .header-top__my,
-.mobile-menu__open .header-top__find,
-.mobile-menu__open .header-top__my{
+.header-fixed header .header-icon li:nth-of-type(odd),
+.header-menu__open header .header-icon li:nth-of-type(odd),
+.mobile-menu__open .header-icon li:nth-of-type(odd){
     display: none;
 }
 
-.header-fixed header .header-fixed__find,
-.header-fixed header .header-fixed__my,
-.header-menu__open header .header-fixed__find,
-.header-menu__open header .header-fixed__my,
-.mobile-menu__open header .header-fixed__find,
-.mobile-menu__open header .header-fixed__my{
+.header-fixed header .header-icon li:nth-of-type(2n),
+.header-menu__open header .header-icon li:nth-of-type(2n),
+.mobile-menu__open .header-icon li:nth-of-type(2n){
     display: block;
 }
 
 .header-fixed header .header-fixed__find,
 .header-menu__open header .header-fixed__find,
-.mobile-menu__open .header-fixed__find{
+.mobile-menu__open .header-fixed__find,
+.header-fixed header .header-fixed__shop,
+.header-menu__open header .header-fixed__shop,
+.mobile-menu__open .header-fixed__shop{
     margin-right: 24px;
 }
 
