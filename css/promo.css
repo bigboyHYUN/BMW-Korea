@@ -58,7 +58,7 @@
 .promotion-big__l p,
 .promotion-big__r p{
     font-size: 0.946vw;
-    color: #fff;
+    color: #f5f5f5;
 }
 
 .smallbox{
@@ -78,7 +78,7 @@
 .smallbox p{
     font-size: 0.736vw;
     font-weight: 300;
-    color: #fff;
+    color: #f5f5f5;
     margin-top: 1.261vw;
 }
 
