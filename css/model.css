@@ -40,10 +40,10 @@
 }
 
 .model-content__text p{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #5b5b5b;
-    margin-top: 24px;
+    margin-top: 6px;
 }
 
 .model-content__text div{
@@ -100,7 +100,7 @@
     width: 63.741%;
     display: flex;
     justify-content: space-between;
-    margin-top: 42px;
+    margin-top: 32px;
 }
 
 .model-info li p{
@@ -111,7 +111,7 @@
 
 .model-info li h6{
     font-size: 48px;
-    margin-top: 24px;
+    margin-top: 6px;
     font-weight: 400;
 }
 

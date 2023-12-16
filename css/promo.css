@@ -164,9 +164,9 @@
     
     .promotion-big__l,
     .promotion-big__r{
-        width: 62.213vw;
-        height: 48.455vw;
-        display: block;
+        width: 56.836vw;
+        height: 47.461vw;
+        display: block; 
         margin: 0;
         position: relative;
         padding: 32px;
@@ -193,8 +193,8 @@
     }
 
     .smallbox{
-        width: 29.711vw;
-        height: 23vw;
+        width: 33.398vw;
+        height: 22.754vw;
         margin: 0 0 0 20px;
         padding: 48px 0 0 32px;
     }
