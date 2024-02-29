@@ -12,7 +12,7 @@
     height: 270px;
     background-color: #f5f5f5;
     border-radius: 24px;
-    padding: 24px 32px;
+    padding: 24px 24px;
     position: relative;
 }
 
@@ -32,7 +32,7 @@
     height: 32px;
     position: absolute;
     bottom: 24px;
-    right: 32px;
+    right: 24px;
 }
 
 @media (max-width:1024px){
