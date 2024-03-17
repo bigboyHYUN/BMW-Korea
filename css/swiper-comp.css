@@ -1,6 +1,5 @@
 .comp{
     width: 83.887% ;
-    /* width: 94.955%; */
     margin-top: 48px;
     position: relative;
 }
@@ -9,10 +8,6 @@
     position: absolute;
     bottom: 0 !important;
 }
-
-/* .flex{
-    width: 83.887% ;
-} */
 
 .comp-relative{
     position: relative;
